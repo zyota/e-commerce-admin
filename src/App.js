@@ -5,6 +5,8 @@ import Sidemenu from "./components/Sidemenu";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Login from "./pages/Login";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,7 @@ function App() {
           <Route path="/" element={<Login />} />
           <Route />
         </Routes>
+        <Footer />
       </div>
     </div>
   );
