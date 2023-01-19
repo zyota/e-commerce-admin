@@ -12,14 +12,14 @@ function App() {
     <div className="App">
       <Header />
       <div className="body">
-        {/* Display flex baina */}
-        <Sidemenu />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/" element={<Products />} />
           <Route path="/" element={<Login />} />
           <Route />
         </Routes>
+      </div>
+      <div>
         <Footer />
       </div>
     </div>

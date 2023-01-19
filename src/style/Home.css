@@ -1,4 +1,22 @@
 .home {
-  background-color: olive;
   width: 100%;
+  margin-top: 100px;
+}
+.home .top {
+  display: flex;
+  justify-content: space-around;
+}
+.home .top h3 {
+  color: #003585;
+  font-weight: 500;
+  font-size: 28px;
+}
+.home .top button {
+  border-radius: 25px;
+  color: #003585;
+  border: 1px solid #003585;
+  padding: 10px 20px;
+}
+.home .top button:focus {
+  background-color: #a7f65c;
 }

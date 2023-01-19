@@ -1,7 +1,17 @@
 .footer {
   background-color: #003585;
-  position: absolute;
-  
+
   width: 100%;
-  height: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.footer p {
+  color: white;
+  align-self: flex-end;
 }
