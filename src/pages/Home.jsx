@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/Home.css";
+import { data } from "../util/data";
 export default function Home() {
   return (
     <div className="home">
@@ -15,6 +16,7 @@ export default function Home() {
           <button>Sale</button>
         </div>
       </div>
+      <div className="mid">{data}</div>
     </div>
   );
 }
